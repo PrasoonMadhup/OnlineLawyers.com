@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+    <style>
+    body{
+  background-image: url('JUSTICEIMAGE2.jpg');}
+  ul {
+      list-style-type: none;
+      margin:0;
+      padding:0;
+      overflow: hidden;
+      background-color: red;
+    }
+
+    li {
+      float: left;
+    }
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 10px 18px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: grey;
+    }
+
+    .active {
+      background-color: grey;
+</style>
+<style type="text/css">
+      #main-header{
+         text-align:center;
+        color:black;
+        padding:20px;
+      }
+      .btn {
+  padding: 10px 18px;
+  text-align: center;
+  cursor:pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid black;
+  transition:background 200ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.88),0 17px 50px 0 rgba(0,0,0,0.65); */
+}</style>
+ <ul>
+  <li><a class="active" href="frontend.html">Home</a></li>
+  </ul>
+
+   	<title>Lawyer's SignUp Page</title>
+   	    </head>
+   	    <body>
+        <header id="main-header">
+   	    	<h2> REGISTER </h2>
+        </header>
+      <center>
+        <form>
+          <table>
+<tr>
+      <td>Name</td>
+      <td><input type="text"name="name"placeholder="name" required></td>
+    
+      </tr>
+ 
+    <tr>
+      <td>Age</td>
+      <td><input type="number"placeholder="Age"name="Age" required></td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td> <select name="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="Others">Others</option>
+  </td>
+  </select><br><br>
+</tr>
+
+<tr>
+      <td>Experience</td>
+      <td><input type="number"placeholder="Experience"name="Experience" required></td>
+    </tr>
+<tr>
+      <td>Location</td>
+      <td><input type="text"name="Location"placeholder="Location" required></td>
+    
+      </tr>
+<tr>
+      <td>Email</td>
+      <td><input type="email"name="email"placeholder="email" required></td>
+    
+      </tr>
+<tr>
+      <td>Phone No.</td>
+      <td><input type="Phone"name="Phone No."placeholder="Phone no." required></td>
+    
+      </tr>
+<tr>
+      <td>Enter any Password</td>
+      <td><input type="Password"name="Password"placeholder="Password" required></td>
+    
+      </tr>
+      </table>
+    </form>
+   			<a href = "frontend.html"><button class = "btn btn1">SUBMIT</button></a>
+</center>
+   	</body>
+</html>

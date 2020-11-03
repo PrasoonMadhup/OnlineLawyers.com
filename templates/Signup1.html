@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html>
    <head>
     <style>
     body{
-  background-image: url('JUSTICEIMAGE2.jpg');}
+  background-image: url('static/JUSTICEIMAGE2.jpg');}
   ul {
       list-style-type: none;
       margin:0;
@@ -41,8 +40,8 @@
   padding: 10px 18px;
   text-align: center;
   cursor:pointer;
-  background-color: white; 
-  color: black; 
+  background-color: white;
+  color: black;
   border: 2px solid black;
   transition:background 200ms ease-in-out;
 }
@@ -63,17 +62,15 @@
    	    	<h2> REGISTER </h2>
         </header>
       <center>
-        <form>
+        <form method="GET" action="/Signup1">
           <table>
 <tr>
       <td>Name</td>
-      <td><input type="text"name="name"placeholder="name" required></td>
-    
-      </tr>
- 
-    <tr>
+      <td><input type="text" name="name" placeholder="name" required></td>
+</tr>
+              <tr>
       <td>Age</td>
-      <td><input type="number"placeholder="Age"name="Age" required></td>
+      <td><input type="number" placeholder="Age" name="Age" required></td>
     </tr>
     <tr>
       <td>Gender</td>
@@ -81,37 +78,38 @@
     <option value="male">Male</option>
     <option value="female">Female</option>
     <option value="Others">Others</option>
-  </td>
+
   </select><br><br>
+        </td>
 </tr>
 
 <tr>
       <td>Experience</td>
-      <td><input type="number"placeholder="Experience"name="Experience" required></td>
+      <td><input type="number" placeholder="Experience" name="Experience" required></td>
     </tr>
 <tr>
       <td>Location</td>
-      <td><input type="text"name="Location"placeholder="Location" required></td>
-    
+      <td><input type="text" name="Location" placeholder="Location" required></td>
+
       </tr>
 <tr>
       <td>Email</td>
-      <td><input type="email"name="email"placeholder="email" required></td>
-    
+      <td><input type="email" name="email" placeholder="email" required></td>
+
       </tr>
 <tr>
       <td>Phone No.</td>
-      <td><input type="Phone"name="Phone No."placeholder="Phone no." required></td>
-    
+      <td><input type="phone" name= "Phone" placeholder="Phone" required></td>
+
       </tr>
 <tr>
       <td>Enter any Password</td>
-      <td><input type="Password"name="Password"placeholder="Password" required></td>
-    
+      <td><input type="password" name= "Password" placeholder="Password" required></td>
+
       </tr>
       </table>
-    </form>
-   			<a href = "frontend.html"><button class = "btn btn1">SUBMIT</button></a>
+            <input class="btn" type="submit"/>
+              </form>
 </center>
    	</body>
 </html>
